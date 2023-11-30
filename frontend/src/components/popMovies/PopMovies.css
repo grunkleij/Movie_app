@@ -1,0 +1,14 @@
+.back{
+    background: linear-gradient(180deg, #1d2131, black);
+}
+
+.title{
+    color:#f1faee;
+    font-weight: 600;
+    margin-bottom: 66px;
+}
+
+.heading{
+    color:#f1faee;
+    font-weight: 600;
+}

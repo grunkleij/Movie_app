@@ -1,0 +1,42 @@
+.bgcolor{
+  background: #1d2131;;
+}
+
+.navcolor a{
+  color:#f1faee;
+}
+
+.linkcolor{
+  color:red;
+}
+
+
+
+/* the poster and title */
+.wrap{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+
+*{
+    font-family: 'Lato', sans-serif;
+}
+
+.logout{
+  font-weight: bold;
+  font-size: 23px;
+  align-items: center;
+  color: white;
+}
+
+.bstyle{
+  border-radius: 230px;
+  font-weight: bold;
+  
+}

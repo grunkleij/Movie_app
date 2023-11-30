@@ -1,0 +1,40 @@
+.container img{
+    width: 200px;
+    border-radius: 20px;
+    object-fit: contain;    
+    border:1px solid #1d3557;
+}
+
+.container{
+    margin:1px;
+    width: 187px;
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 20px;
+  color:#f1faee;
+  position: relative;
+}
+
+
+.title {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  color: white;
+  padding: 5px;
+  margin: 0;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.visible {
+  opacity: 1;
+}
+
+.container.hovered .moviet {
+  filter: brightness(70%);
+}

@@ -1,0 +1,14 @@
+body{
+    background: linear-gradient(180deg, #1d2131, black);
+    height: 100vh;
+}
+
+.watchlist{
+    display: flex;
+    flex-direction: row;
+    gap:30px;
+}
+
+h1{
+    color:beige;
+}
